@@ -157,6 +157,8 @@ gap: 40px;
 
 
 .color-box {
+    max-width: 1440px;
+   align-content: center;
     background-color:#2E2F42; 
     height: 600px;
     padding-top: 188px;
