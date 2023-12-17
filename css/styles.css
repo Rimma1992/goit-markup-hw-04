@@ -193,7 +193,7 @@ margin-top: 24px;
         border: none;
         min-width: 169px;
         margin: auto;
-        
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 .button:hover,
@@ -367,11 +367,6 @@ overflow: hidden;
     text-align:center;
     margin-bottom: 72px;
     
-   
-   
-  
-
-    
     
 }
 
@@ -396,9 +391,16 @@ overflow: hidden;
     flex-direction: column;
     align-items: flex-start;
     flex-shrink:0;
-
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
+
+.overley_portfolio {
+    position: relative;
+    overflow: hidden;
+}
+
+
 .name_div{
    display: flex;
   
@@ -434,6 +436,8 @@ overflow: hidden;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    transform: translateY(0%);
+
 
 }
 
