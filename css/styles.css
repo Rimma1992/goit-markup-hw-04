@@ -49,7 +49,7 @@ a {
     display: flex;
     margin-right: auto;
     align-items: center;
-    
+    color: #404bbf;
     
 }
 
@@ -425,8 +425,9 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
-.social_media_link: hover{
-    background: color #404bbf;;
+.social_media_link:hover,
+.social_media_link:focus {
+    background: color #404bbf;
 }
 
 .social_media_icon {
