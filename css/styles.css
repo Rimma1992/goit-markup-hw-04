@@ -356,6 +356,7 @@ overflow: hidden;
 }
 
 .div_team {
+   
     background-color: #FFFFFF;
     width: 100% - 72px / 4;
     padding-top: 32px;
@@ -384,6 +385,44 @@ overflow: hidden;
     text-align: center;
     
 }
+
+
+
+.soc_media_list {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+ 
+.soc_media_item {
+    width: 40px;
+    height: 40px;
+    
+}
+  
+.social_media_link, .footer_media_link {
+display: flex;
+flex-direction: row;
+background-color: #4D5AE5;
+border-radius: 50%;
+width: 100%;
+height: 100%;
+align-items: center;
+justify-content: center;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.social_media_link: hover{
+    background: color #404bbf;;
+}
+
+.social_media_icon {
+    fill:#F4F4FD;
+}
+
 
 
 .section-four {
