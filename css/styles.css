@@ -494,7 +494,7 @@ background-color: #404bbf;
 
 
 
-.portfolio_list:hover ,
+.portfolio_list:hover 
 .hidden_description_text {
     transform: translateY(0%);
 }
@@ -506,7 +506,7 @@ background-color: #404bbf;
        }
 
 .overley_portfolio:hover {
-    
+
 }
 
 
@@ -530,8 +530,7 @@ background-color: #404bbf;
 }
 
  
-.hidden_description_text:hover,
- {
+.hidden_description_text:hover{
     border-radius: 4px;
     margin-bottom: 8px;
 }
