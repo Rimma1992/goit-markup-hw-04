@@ -49,7 +49,7 @@ a {
     display: flex;
     margin-right: auto;
     align-items: center;
-    color: #404bbf;
+  
     
 }
 
@@ -75,7 +75,7 @@ a {
 
 
 .header-logo-part {
-    color: #2e2f42;
+    color: #404bbf;
 }
 
 .header_menu {   
