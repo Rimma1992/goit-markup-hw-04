@@ -485,14 +485,10 @@ background-color: #404bbf;
     width: calc((100% - 48px) / 3);
     box-shadow: none;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-}
-
-
-.portfolio_list {
-    border: 1px solid #F4F4FD;
+border: 1px solid #F4F4FD;
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 }
+
 
 
 .portfolio_list:hover ,
@@ -521,8 +517,8 @@ background-color: #404bbf;
     height: 100%;
     width: 100%;
     overflow: auto;
-    transform: translateY(0%);
-    transition: transform 250ms, cubic-bezier(0.4, 0, 0.2, 1);
+    
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1)
 
 
 }
